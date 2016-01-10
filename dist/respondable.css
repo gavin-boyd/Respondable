@@ -1,0 +1,34 @@
+table.respondable tbody tr td span
+{
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+		table.respondable
+		{
+			width: 100%;
+		}
+
+    table.respondable thead
+    {
+    	position: absolute;
+    	left: -9999px;
+    }
+    table.respondable tbody tr
+    {
+    	display: block;
+    	margin-bottom: 20px;
+    }
+    table.respondable tbody tr td 
+    {
+    	display: block;
+    	width: 100%;
+    }
+    table.respondable tbody tr td span 
+    {
+    	background: #eee;
+    	display: block;
+    	width: 40%;
+    	float: left;
+    }
+}
