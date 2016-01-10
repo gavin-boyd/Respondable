@@ -1,4 +1,4 @@
-#Respondable.js
+#Respondable - javascript and css
 
 Not ready yet, still testing, a simple jQuery function and CSS which allows you to make any table mobile friendly.
 
